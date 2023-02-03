@@ -8,6 +8,7 @@ on:
 
 jobs:
   terraform:
+    permissions: write-all
     name: "Terraform"
     runs-on: ubuntu-latest
     steps:
